@@ -1,0 +1,8 @@
+chmod 755 "nombre.sh": cambiar los permisos del archivo
+ssh 148.225.73.30: entrar al servidor de fÃ­sica
+./ejecutable >&nombredesalida&: dejar ejecutando en el servidor
+GUARDAR EL NÚMERO DE LA CORRIDA
+/usr/bin/time/ ./ejecutable >&nombredesalida&: lo mismo pero que te muestre el tiempo de ejecución
+ps -fea: muestre en fijo como va
+top: ver como va en dinámico
+kill numerodelproceso: cortar la corrida
